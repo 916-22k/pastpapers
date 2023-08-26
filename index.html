@@ -5,50 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Past Papers</title>
     <style>
-        /* Set background and text colors */
         body {
             background-color: black;
             color: white;
             font-family: Arial, sans-serif;
         }
 
-        /* Style for buttons */
+        .button-table {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+            justify-items: center;
+        }
+
+        .button-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
         .button {
             display: inline-block;
-            padding: 10px 20px;
-            margin: 10px;
-            background-color: red;
-            color: black;
+            padding: 10px 10px;
+            background-color: grey;
+            color: red;
             border: none;
             border-radius: 5px;
             text-decoration: none;
             font-weight: bold;
             cursor: pointer;
+            margin-bottom: 5px;
         }
 
-        /* Button hover effect */
         .button:hover {
-            background-color: black;
-            color: red;
+            background-color: red;
+            color: white;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to the Moon Theme Website</h1>
-    <p>GCSE Computer Science Past Papers</p>
+    <h1>GCSE Section</h1>
+    <p>GCSE OCR Computer Science Paper 1</p>
     
-    <!-- Organized buttons -->
-    <div>
-        <a href="your_template_url_here.pdf" class="button">2018 QP</a>
-        <a href="your_template_url_here.pdf" class="button">Button 2</a>
-        <a href="your_template_url_here.pdf" class="button">Button 3</a>
-        <a href="your_template_url_here.pdf" class="button">Button 4</a>
-        <a href="your_template_url_here.pdf" class="button">Button 5</a>
-        <a href="your_template_url_here.pdf" class="button">Button 6</a>
-        <a href="your_template_url_here.pdf" class="button">Button 7</a>
-        <a href="your_template_url_here.pdf" class="button">Button 8</a>
-        <a href="your_template_url_here.pdf" class="button">Button 9</a>
-        <a href="your_template_url_here.pdf" class="button">Button 10</a>
+    <div class="button-table">
+        <div class="button-container">
+            <a href="CompSciPapers/June 2018 QP - Paper 1 OCR Computer Science GCSE.pdf" class="button">2018 QP</a>
+            <a href="CompSciPapers/June 2018 MS - Paper 1 OCR Computer Science GCSE.pdf" class="button">2018 MS</a>
+        </div>
+        <div class="button-container">
+            <a href="CompSciPapers/June 2019 QP - Paper 1 OCR Computer Science GCSE.pdf" class="button">2019 QP</a>
+            <a href="CompSciPapers/June 2019 MS - Paper 1 OCR Computer Science GCSE.pdf" class="button">2019 MS</a>
+        </div>
+        <div class="button-container">
+            <a href="CompSciPapers/November 2020 QP - Paper 1 OCR Computer Science GCSE.pdf" class="button">2020 QP</a>
+            <a href="CompSciPapers/November 2020 MS - Paper 1 OCR Computer Science GCSE.pdfo" class="button">2020 MS</a>
+        </div>
+        <div class="button-container">
+            <a href="CompSciPapers/November 2021 QP - Paper 1 OCR Computer Science GCSE.pdf" class="button">2021 QP</a>
+            <a href="CompSciPapers/November 2021 MS - Paper 1 OCR Computer Science GCSE.pdfo" class="button">2021 MS</a>
+        </div>
+        <div class="button-container">
+            <a href="CompSciPapers/June 2022 QP - Paper 1 OCR Computer Science GCSE.pdf" class="button">2022 QP</a>
+            <a href="CompSciPapers/June 2022 MS - Paper 1 OCR Computer Science GCSE.pdf" class="button">2022 MS</a>
+        </div>
     </div>
+    <p>GCSE OCR Computer Science Paper 2</p>
+    <div class="button-table">
+        <div class="button-container">
+            <a href="CompSciPapers/June 2018 QP - Paper 2 OCR Computer Science GCSE.pdf" class="button">2018 QP</a>
+            <a href="CompSciPapers/June 2018 MS - Paper 2 OCR Computer Science GCSE.pdf" class="button">2018 MS</a>
+        </div>
+        <div class="button-container">
+            <a href="CompSciPapers/June 2019 QP - Paper 2 OCR Computer Science GCSE.pdf" class="button">2019 QP</a>
+            <a href="CompSciPapers/June 2019 MS - Paper 2 OCR Computer Science GCSE.pdf" class="button">2019 MS</a>
+        </div>
+        <div class="button-container">
+            <a href="CompSciPapers/November 2020 QP - Paper 2 OCR Computer Science GCSE.pdf" class="button">2020 QP</a>
+            <a href="CompSciPapers/November 2020 MS - Paper 2 OCR Computer Science GCSE.pdfo" class="button">2020 MS</a>
+        </div>
+        <div class="button-container">
+            <a href="CompSciPapers/November 2021 QP - Paper 2 OCR Computer Science GCSE.pdf" class="button">2021 QP</a>
+            <a href="CompSciPapers/November 2021 MS - Paper 2 OCR Computer Science GCSE.pdfo" class="button">2021 MS</a>
+        </div>
+        <div class="button-container">
+            <a href="CompSciPapers/June 2022 QP - Paper 2 OCR Computer Science GCSE.pdf" class="button">2022 QP</a>
+            <a href="CompSciPapers/June 2022 MS - Paper 2 OCR Computer Science GCSE.pdf" class="button">2022 MS</a>
+        </div>
+    </div>
+
+
+
 </body>
 </html>
+
+
+
