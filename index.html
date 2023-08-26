@@ -3,31 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Past Papers</title>
+    <title>Homepage</title>
     <style>
         body {
             background-color: black;
             color: white;
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nav-button {
+            padding: 10px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .nav-button:hover {
+            background-color: red;
+            color: black;
+        }
+
+        .content {
+            padding: 20px;
         }
 
         .button-table {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
             grid-gap: 10px;
             justify-items: center;
         }
 
-        .button-container {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
         .button {
             display: inline-block;
-            padding: 10px 10px;
+            padding: 10px 20px;
             background-color: grey;
             color: red;
             border: none;
@@ -36,68 +57,28 @@
             font-weight: bold;
             cursor: pointer;
             margin-bottom: 5px;
+            transition: background-color 0.3s, color 0.3s;
         }
 
         .button:hover {
             background-color: red;
-            color: white;
+            color: black;
         }
     </style>
 </head>
 <body>
-    <h1>GCSE Section</h1>
-    <p>GCSE OCR Computer Science Paper 1</p>
-    
-    <div class="button-table">
-        <div class="button-container">
-            <a href="CompSciPapers/June 2018 QP - Paper 1 OCR Computer Science GCSE.pdf" class="button">2018 QP</a>
-            <a href="CompSciPapers/June 2018 MS - Paper 1 OCR Computer Science GCSE.pdf" class="button">2018 MS</a>
-        </div>
-        <div class="button-container">
-            <a href="CompSciPapers/June 2019 QP - Paper 1 OCR Computer Science GCSE.pdf" class="button">2019 QP</a>
-            <a href="CompSciPapers/June 2019 MS - Paper 1 OCR Computer Science GCSE.pdf" class="button">2019 MS</a>
-        </div>
-        <div class="button-container">
-            <a href="CompSciPapers/November 2020 QP - Paper 1 OCR Computer Science GCSE.pdf" class="button">2020 QP</a>
-            <a href="CompSciPapers/November 2020 MS - Paper 1 OCR Computer Science GCSE.pdfo" class="button">2020 MS</a>
-        </div>
-        <div class="button-container">
-            <a href="CompSciPapers/November 2021 QP - Paper 1 OCR Computer Science GCSE.pdf" class="button">2021 QP</a>
-            <a href="CompSciPapers/November 2021 MS - Paper 1 OCR Computer Science GCSE.pdfo" class="button">2021 MS</a>
-        </div>
-        <div class="button-container">
-            <a href="CompSciPapers/June 2022 QP - Paper 1 OCR Computer Science GCSE.pdf" class="button">2022 QP</a>
-            <a href="CompSciPapers/June 2022 MS - Paper 1 OCR Computer Science GCSE.pdf" class="button">2022 MS</a>
-        </div>
-    </div>
-    <p>GCSE OCR Computer Science Paper 2</p>
-    <div class="button-table">
-        <div class="button-container">
-            <a href="CompSciPapers/June 2018 QP - Paper 2 OCR Computer Science GCSE.pdf" class="button">2018 QP</a>
-            <a href="CompSciPapers/June 2018 MS - Paper 2 OCR Computer Science GCSE.pdf" class="button">2018 MS</a>
-        </div>
-        <div class="button-container">
-            <a href="CompSciPapers/June 2019 QP - Paper 2 OCR Computer Science GCSE.pdf" class="button">2019 QP</a>
-            <a href="CompSciPapers/June 2019 MS - Paper 2 OCR Computer Science GCSE.pdf" class="button">2019 MS</a>
-        </div>
-        <div class="button-container">
-            <a href="CompSciPapers/November 2020 QP - Paper 2 OCR Computer Science GCSE.pdf" class="button">2020 QP</a>
-            <a href="CompSciPapers/November 2020 MS - Paper 2 OCR Computer Science GCSE.pdfo" class="button">2020 MS</a>
-        </div>
-        <div class="button-container">
-            <a href="CompSciPapers/November 2021 QP - Paper 2 OCR Computer Science GCSE.pdf" class="button">2021 QP</a>
-            <a href="CompSciPapers/November 2021 MS - Paper 2 OCR Computer Science GCSE.pdfo" class="button">2021 MS</a>
-        </div>
-        <div class="button-container">
-            <a href="CompSciPapers/June 2022 QP - Paper 2 OCR Computer Science GCSE.pdf" class="button">2022 QP</a>
-            <a href="CompSciPapers/June 2022 MS - Paper 2 OCR Computer Science GCSE.pdf" class="button">2022 MS</a>
-        </div>
+    <div class="topnav">
+        <a href="GCSEOCRCompSci.html" class="nav-button">GCSECompSciOCR</a>
     </div>
 
-
-
+    <div class="content">
+        <h1>Call Notes</h1>
+        <p>Computer Science</p>
+        
+        <div class="button-table">
+            <a href="#" class="button">Sat 26/Aug 08/2023</a>
+            <!-- Add more button links as needed -->
+        </div>
+    </div>
 </body>
 </html>
-
-
-
